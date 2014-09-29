@@ -2,36 +2,30 @@
 #include "usmc_common.sqf"
 
 /* Optics Slots */
-ADD_WEAPON("Binocular_Vector");
+ADD_WEAPON("Binocular");
 
 /* Item Slots */
-ADD_WEAPON("ItemGPS");
-ADD_WEAPON("ACE_DAGR");
 
-/* Primary Magazine Slots */
-ADD_MAGAZINE("30Rnd_556x45_Stanag", 7);
-ADD_MAGAZINE("ACE_30Rnd_556x45_T_Stanag", 1);
-ADD_MAGAZINE("HandGrenade_West", 2);
-ADD_MAGAZINE("SmokeShell", 2);
-
-/* Secondary Magazine Slots */
-ADD_MAGAZINE("15Rnd_9x19_M9", 4);
+/* Primary Magazine Slots */ 
+ADD_MAGAZINE("ACE_30Rnd_762x39_S_AK47", 7);
+ADD_MAGAZINE("ACE_30Rnd_762x39_T_AK47", 1);
+ADD_MAGAZINE("HandGrenade_East", 2);
+ADD_MAGAZINE("ACE_RDGM", 2);
+ 
+/* Secondary Magazine Slots */ 
+ADD_MAGAZINE("1Rnd_HE_GP25t", 6);
+ADD_MAGAZINE("1Rnd_SmokeYellow_GP25", 3);  
 
 /* ACE Ruck Magazine Slots */
-ADD_MAGAZINE_RUCK("30Rnd_556x45_Stanag", 6);
-ADD_MAGAZINE_RUCK("ACE_30Rnd_556x45_T_Stanag", 2);
-ADD_MAGAZINE_RUCK("ACE_Battery_Rangefinder", 1);
-ADD_MAGAZINE_RUCK("HandGrenade_West", 2);
-ADD_MAGAZINE_RUCK("SmokeShellGreen", 2);
-ADD_MAGAZINE_RUCK("SmokeShellRed", 2);
-ADD_MAGAZINE_RUCK("SmokeShellPurple", 2);
-ADD_MAGAZINE_RUCK("SmokeShellBlue", 2);
-ADD_MAGAZINE_RUCK("ACE_Knicklicht_B", 4);
-ADD_MAGAZINE_RUCK("ACE_Knicklicht_G", 4);
-ADD_MAGAZINE_RUCK("ACE_Knicklicht_R", 4);
-ADD_MAGAZINE_RUCK("ACE_Knicklicht_Y", 4);
-ADD_MAGAZINE_RUCK("ACE_Knicklicht_IR", 4);
+ADD_MAGAZINE_RUCK("ACE_30Rnd_762x39_S_AK47", 6);
+ADD_MAGAZINE_RUCK("ACE_30Rnd_762x39_T_AK47", 2);
+ADD_MAGAZINE_RUCK("1Rnd_HE_GP25", 15);  
+ADD_MAGAZINE_RUCK("1Rnd_SmokeRed_GP25", 5);
+ADD_MAGAZINE_RUCK("1Rnd_SmokeGreen_GP25", 5);
+ADD_MAGAZINE_RUCK("1Rnd_SmokeRed_GP25", 5);
+
 
 /* Weapon Slots */
-ADD_WEAPON("SCAR_L_STD_Mk4CQT");
-ADD_WEAPON("M9");
+ADD_WEAPON("ACE_AKM_GL");
+ADD_WEAPON_ON_BACK("ACE_ALICE_Backpack");
+
