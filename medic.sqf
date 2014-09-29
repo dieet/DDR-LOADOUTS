@@ -20,7 +20,8 @@ ADD_MAGAZINE_RUCK("ACE_Bandage", 16);
 ADD_MAGAZINE_RUCK("ACE_LargeBandage", 6);
 ADD_MAGAZINE_RUCK("ACE_Morphine", 8);
 ADD_MAGAZINE_RUCK("ACE_Epinephrine", 6);
-ADD_MAGAZINE_RUCK("ACE_Medkit", 4);
+ADD_MAGAZINE_RUCK("ACE_Medkit", 4);   
 
 /* Weapon Slots */
 ADD_WEAPON("SCAR_L_STD_HOLO");
+ADD_WEAPON("ACE_Rucksack_MOLLE_Brown_Medic");
