@@ -19,3 +19,4 @@ ADD_MAGAZINE_RUCK("ACE_Medkit", 4);
 
 /* Weapon Slots */
 ADD_WEAPON("ACE_AKM");
+ADD_WEAPON("ACE_Rucksack_MOLLE_Brown_Medic");
